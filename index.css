@@ -51,7 +51,7 @@ p {
 
 .container h1 {
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .container article:first-child img {
@@ -76,7 +76,24 @@ p {
 }
 
 .container ul li:first-child {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin-right: 1.5rem;
+}
+
+.container ul li:last-child {
+    color: hsl(228, 12%, 48%);
+}
+
+.container .btn {
+    background-color: hsl(158, 36%, 37%);
+    color: #fff;
+    font-weight: 700;
+    padding: 0.625rem 2rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .price {
