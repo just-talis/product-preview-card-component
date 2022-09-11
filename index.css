@@ -82,6 +82,7 @@ p {
 
 .container ul li:last-child {
     color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
 }
 
 .container .btn {
@@ -146,11 +147,21 @@ h1, .price {
 
     .container article:first-child img {
         border-radius: 0.625rem 0 0 0.625rem;
-        height: 100%;
+        width: 100%;
     }
 
     .container article:last-child {
         border-radius: 0 0.625rem 0.625rem 0;
+        margin-top: 0;
+        padding: 1.5rem 1.5rem 0;
+    }
+
+    picture img {
+        height: 100%;
+    }
+
+    .container p {
+        margin-bottom: 1rem;
     }
 }
     
